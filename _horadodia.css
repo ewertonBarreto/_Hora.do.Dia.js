@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 4px 0px 5px black;
+    font-size: 40pt;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: auto;
+    background-color: #f6f7f9;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;      
+}
+
+div#div1 {
+    font: bold 1.4rem serif;
+    text-align: center;
+    border-radius: 10px;    
+}
+
+div#img {
+    padding: 30PX;
+    display: flex;
+    justify-content: center;
+}
+
+footer#rodape {
+    font: 1.0rem arial;
+    text-align: center;
+    margin-top: 30px;    
+    font-style: italic;
+    color: black;
+}
